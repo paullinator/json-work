@@ -745,7 +745,7 @@ export const CURRENCY_DATA = {
         "buySellSupport": false,
         "swapSupport": true,
         "status": "up",
-        "tokens": {}
+        "tokens": {},
       },
       "solana": {
         "currencyCode": "SOL",
@@ -811,8 +811,8 @@ export const CURRENCY_DATA = {
         "status": "on"
       },
       "digibyte": {
-        "currencyCode": "XLM",
-        "displayName": "Stellar",
+        "currencyCode": "DGB",
+        "displayName": "Digibyte",
         "buySellSupport": false,
         "swapSupport": false,
         "status": "on"
@@ -1061,7 +1061,7 @@ export const CURRENCY_DATA = {
             "currencyCode": "UNI",
             "displayName": "Uniswap",
             "buySellSupport": false,
-            "swapSupport": false,
+            "swapSupport": true,
             "status": "on"
           },
           "usdc": {
@@ -1189,7 +1189,7 @@ export const CURRENCY_DATA = {
             "currencyCode": "USDC.e",
             "displayName": "Uniswap",
             "buySellSupport": false,
-            "swapSupport": false,
+            "swapSupport": true,
             "status": "on"
           },
           "usdt": {
@@ -1226,9 +1226,10 @@ export const CURRENCY_DATA = {
         "currencyCode": "BNB",
         "displayName": "BNB Smart Chain",
         "buySellSupport": false,
-        "swapSupport": false,
+        "swapSupport": true,
         "status": "on",
-        "tokens": {},
+        "tokens": {
+        },
       },
       "celo": {
         "currencyCode": "CELO",
