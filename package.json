@@ -1,0 +1,23 @@
+{
+  "name": "json-file",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "GetGodex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yintii/json-work.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yintii/json-work/issues"
+  },
+  "homepage": "https://github.com/Yintii/json-work#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.4"
+  }
+}

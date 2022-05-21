@@ -1,5 +1,4 @@
-const CURRENCY_DATA = [
-  {
+export const CURRENCY_DATA = {
     "_id": "currencyStatus",
     "_rev": "9-4d3b61f21749822ca2f657b7eab162f5",
     "assets": {
@@ -13,14 +12,14 @@ const CURRENCY_DATA = [
       "bitcoin_cash": {
         "currencyCode": "BCH",
         "displayName": "Bitcoin Cash",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
         "status": "up"
       },
       "monero": {
         "currencyCode": "XMR",
         "displayName": "Monero",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
         "status": "up"
       },
@@ -34,686 +33,693 @@ const CURRENCY_DATA = [
           "repv2": {
             "currenyCode": "REPV2",
             "displayName": "Augur v2",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "herc": {
             "currenyCode": "HERC",
             "displayName": "Hercules",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "1inch": {
             "currenyCode": "1INCH",
             "displayName": "1inch",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "aave": {
             "currenyCode": "AAVE",
             "displayName": "Aave",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "aave_interest_bearing_bat": {
             "currenyCode": "ABAT",
             "displayName": "Aave Interest Bearing Bat",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_dai": {
             "currenyCode": "ADAI",
             "displayName": "Aave Interest Bearing Dai",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_knc": {
             "currenyCode": "AKNC",
             "displayName": "Aave Interest Bearing KNC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_link": {
             "currenyCode": "ALINK",
             "displayName": "Aave Interest Bearing Link",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_mana": {
             "currenyCode": "AMANA",
             "displayName": "Aave Interest Bearing Mana",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_mkr": {
             "currenyCode": "AMKR",
             "displayName": "Aave Interest Bearing MKR",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "ampl": {
             "currenyCode": "AMPL",
             "displayName": "Augur v2",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "ant": {
             "currenyCode": "ANT",
             "displayName": "Aragon",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "antv1": {
             "currenyCode": "ANTV1",
             "displayName": "Aragon v1",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_ren": {
             "currenyCode": "AREN",
             "displayName": "Aave Interest Bearing REN",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_snx": {
             "currenyCode": "ASNX",
             "displayName": "Aave Interest Bearing SNX",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_asusd": {
             "currenyCode": "ASUSD",
             "displayName": "Aave Interest Bearing ASUSD",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_auni": {
             "currenyCode": "AUNI",
             "displayName": "Aave Interest Bearing UNI",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_usdc": {
             "currenyCode": "AUSDC",
             "displayName": "Aave Interest Bearing USDC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "up",
+          },
+          "aave_interest_bearing_amkr": {
+            "currenyCode": "AMKR",
+            "displayName": "Aave Interest Bearing MKR",
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_ausdt": {
-            "currenyCode": "AMKR",
-            "displayName": "Aave Interest Bearing MKR",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "currenyCode": "AUSDT",
+            "displayName": "Aave Interest Bearing Tether",
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_awbtc": {
             "currenyCode": "AWBTC",
             "displayName": "Aave Interest Bearing WBTC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_aweth": {
             "currenyCode": "AWETH",
             "displayName": "Aave Interest Bearing WETH",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_ayfi": {
             "currenyCode": "AYFI",
             "displayName": "Aave Interest Bearing YFI",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "aave_interest_bearing_azrx": {
             "currenyCode": "AZRX",
             "displayName": "Aave Interest Bearing ZRX",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "badger": {
             "currenyCode": "BADGER",
             "displayName": "Badger",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "balancer": {
             "currenyCode": "BAL",
             "displayName": "Balancer",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "band": {
             "currenyCode": "BAND",
             "displayName": "BAND",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "bat": {
             "currenyCode": "BAT",
             "displayName": "Basic Attention Token",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "bnb": {
             "currenyCode": "BNB",
             "displayName": "Binance",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "bnt": {
             "currenyCode": "BNT",
             "displayName": "Bancor",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "brz": {
             "currenyCode": "BRZ",
             "displayName": "BRZ token",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "cbat": {
             "currenyCode": "CBAT",
             "displayName": "Compound BAT",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "cdai": {
             "currenyCode": "CDAI",
             "displayName": "Compound DAI",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "ceth": {
             "currenyCode": "CETH",
             "displayName": "Compound Eth",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "combo": {
             "currenyCode": "COMBO",
             "displayName": "COMBO",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "compound": {
             "currenyCode": "COMP",
             "displayName": "Compound",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "cream": {
             "currenyCode": "CREAM",
             "displayName": "Cream",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "crep": {
             "currenyCode": "CREP",
             "displayName": "Compound Augur",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "crv": {
             "currenyCode": "CRV",
             "displayName": "Curve DAO Token",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "csai": {
             "currenyCode": "CSAI",
             "displayName": "Compound SAI",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "cusdc": {
             "currenyCode": "cusdc",
             "displayName": "Compound USDC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "cvp": {
             "currenyCode": "CVP",
             "displayName": "Concentrated Voting Power",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "cwbtc": {
             "currenyCode": "CWBTC",
             "displayName": "Compound WBTC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "czrx": {
             "currenyCode": "CZRX",
             "displayName": "Compound ZRX",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "dai": {
             "currenyCode": "DAI",
             "displayName": "Dai Stablecoin",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "dough": {
             "currenyCode": "DOUGH",
             "displayName": "PieDAO",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "dpi": {
             "currenyCode": "DPI",
             "displayName": "DefiPulse Index",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "ethbnt": {
             "currenyCode": "ETHBNT",
             "displayName": "BNT Smart Token Relay",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "ftm": {
             "currenyCode": "FTM",
             "displayName": "Fantom",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "fun": {
             "currenyCode": "FUN",
             "displayName": "FunFair",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "glm": {
             "currenyCode": "GLM",
             "displayName": "Golem",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "gno": {
             "currenyCode": "GNO",
             "displayName": "Gnosis",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "gnt": {
             "currenyCode": "GNT",
             "displayName": "Golem (Old)",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "gusd": {
             "currenyCode": "GUSD",
             "displayName": "Gemini Dollar",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "hur": {
             "currenyCode": "HUR",
             "displayName": "Hurify",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "idle": {
             "currenyCode": "IDLE",
             "displayName": "Idle Finance",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "ind": {
             "currenyCode": "IND",
             "displayName": "Indorse",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "index": {
             "currenyCode": "INDEX",
             "displayName": "INDEX COOP",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "kin": {
             "currenyCode": "KIN",
             "displayName": "Kin",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "knc": {
             "currenyCode": "KNC",
             "displayName": "Kyber Network",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "link": {
             "currenyCode": "LINK",
             "displayName": "Chainlink",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "mana": {
             "currenyCode": "MANA",
             "displayName": "Decentrland",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "matic": {
             "currenyCode": "MATIC",
             "displayName": "Polygon",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "met": {
             "currenyCode": "MET",
             "displayName": "Metronome",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "mkr": {
             "currenyCode": "MKR",
             "displayName": "Maker",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "nexo": {
             "currenyCode": "NEXO",
             "displayName": "Nexo",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "nmr": {
             "currenyCode": "NMR",
             "displayName": "Numeraire",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "nxm": {
             "currenyCode": "NXM",
             "displayName": "Nexus Mutual",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "ocean": {
             "currenyCode": "OCEAN",
             "displayName": "OCEAN",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "omg": {
             "currenyCode": "OMG",
             "displayName": "OmiseGo",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "oxt": {
             "currenyCode": "OXT",
             "displayName": "Orchid",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "PAX": {
             "currenyCode": "PAX",
             "displayName": "Paxos",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "pickle": {
             "currenyCode": "PICKLE",
             "displayName": "PickleToken",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "poly": {
             "currenyCode": "POLY",
             "displayName": "Polymath Network",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "ren": {
             "currenyCode": "REN",
             "displayName": "Ren",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "renbch": {
             "currenyCode": "RENBCH",
             "displayName": "Ren BCH",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "renbtc": {
             "currenyCode": "RENBTC",
             "displayName": "Ren BTC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "renzec": {
             "currenyCode": "renzec",
             "displayName": "Ren ZEC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "rep": {
             "currenyCode": "REP",
             "displayName": "Augur",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "rook": {
             "currenyCode": "ROOK",
             "displayName": "Keeper DAO",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "sai": {
             "currenyCode": "SAI",
             "displayName": "Sai Stablecoin",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "salt": {
             "currenyCode": "SALT",
             "displayName": "SALT",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "sbtc": {
             "currenyCode": "SBTC",
             "displayName": "Synthentix BTC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "snx": {
             "currenyCode": "SNX",
             "displayName": "Synthetix Network",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "storj": {
             "currenyCode": "STORJ",
             "displayName": "Storj",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "susd": {
             "currenyCode": "SUSD",
             "displayName": "Synthetix USD",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "sushi": {
             "currenyCode": "SUSHI",
             "displayName": "Sushi Token",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "tbtc": {
             "currenyCode": "TBTC",
             "displayName": "tBTC",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "TUSD": {
             "currenyCode": "TUSD",
             "displayName": "TrueUSD",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "uma": {
             "currenyCode": "UMA",
             "displayName": "UMA",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "uni": {
             "currenyCode": "UNI",
             "displayName": "Uniswap",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "usdc": {
             "currenyCode": "USDC",
             "displayName": "USD Coin",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "usds": {
             "currenyCode": "USDS",
             "displayName": "StableUSD",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "usdt": {
             "currenyCode": "USDT",
             "displayName": "Tether",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "wbtc": {
             "currenyCode": "WBTC",
             "displayName": "Wrapped BTC",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "weth": {
             "currenyCode": "WETH",
             "displayName": "Wrapped ETH",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "yeti": {
             "currenyCode": "YETI",
             "displayName": "Yearn Ecosyste Token Index",
-            "buySellSupport": true,
-            "swapSupport": true,
+            "buySellSupport": false,
+            "swapSupport": false,
             "status": "up",
           },
           "yfi": {
             "currenyCode": "YFI",
             "displayName": "Yearn Finance",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
           "zrx": {
             "currenyCode": "ZRX",
             "displayName": "0x",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
             "status": "up",
           },
@@ -722,21 +728,21 @@ const CURRENCY_DATA = [
       "zcash": {
         "currencyCode": "ZEC",
         "displayName": "Zcash",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
         "status": "up"
       },
       "ethereum_classic": {
         "currencyCode": "ETC",
         "displayName": "Ethereum Classic",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
         "status": "up"
       },
       "bnb_beacon_chain": {
         "currencyCode": "BNB",
         "displayName": "BNB Beacon Chain",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
         "status": "up",
         "tokens": {}
@@ -744,514 +750,513 @@ const CURRENCY_DATA = [
       "solana": {
         "currencyCode": "SOL",
         "displayName": "Solana",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
         "status": "up"
       },
       "bitcoin_sv": {
         "currencyCode": "BSV",
         "displayName": "Bitcoin SV",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
         "status": "up"
       },
       "litecoin": {
         "currencyCode": "LTC",
         "displayName": "Litecoin",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
         "status": "up"
       },
       "eos": {
         "currencyCode": "EOS",
         "displayName": "EOS",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "ripple": {
         "currencyCode": "XRP",
         "displayName": "Ripple",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "rsk": {
         "currencyCode": "RSK",
         "displayName": "RBTC",
-        "buySellSupport": true,
-        "swapSupport": true,
-        "status": "partial"
+        "buySellSupport": false,
+        "swapSupport": false,
+        "status": "on"
       },
       "xlm": {
         "currencyCode": "XLM",
         "displayName": "Stellar",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "dash": {
         "currencyCode": "DASH",
         "displayName": "Dash",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "xtz": {
         "currencyCode": "XTZ",
         "displayName": "Tezos",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "digibyte": {
         "currencyCode": "XLM",
         "displayName": "Stellar",
-        "buySellSupport": true,
-        "swapSupport": true,
-        "status": "partial"
+        "buySellSupport": false,
+        "swapSupport": false,
+        "status": "on"
       },
       "vtc": {
         "currencyCode": "VTC",
         "displayName": "Vertcoin",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "rvn": {
         "currencyCode": "RVN",
         "displayName": "Ravencoin",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "qtum": {
         "currencyCode": "QTUM",
         "displayName": "Qtum",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "ftc": {
         "currencyCode": "FTC",
         "displayName": "Fethercoin",
-        "buySellSupport": true,
-        "swapSupport": true,
-        "status": "partial"
+        "buySellSupport": false,
+        "swapSupport": false,
+        "status": "on"
       },
       "btg": {
         "currencyCode": "BTG",
         "displayName": "Bitcoin Gold",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "smart": {
         "currencyCode": "SMART",
         "displayName": "SmartCash",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "grs": {
         "currencyCode": "GRS",
         "displayName": "Groestlcoin",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "firo": {
         "currencyCode": "FIRO",
         "displayName": "Firo",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "ufo": {
         "currencyCode": "UFO",
         "displayName": "UFO",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "tlos": {
         "currencyCode": "TLOS",
         "displayName": "Telos",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "wax": {
         "currencyCode": "WAX",
         "displayName": "Wax",
-        "buySellSupport": true,
-        "swapSupport": true,
-        "status": "partial"
+        "buySellSupport": false,
+        "swapSupport": false,
+        "status": "on"
       },
       "ftm": {
         "currencyCode": "FTM",
         "displayName": "Fantom",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial",
+        "status": "on",
         "tokens": {
           "boo": {
             "currencyCode": "BOO",
             "displayName": "SpookyToken",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "fbtc": {
             "currencyCode": "FBTC",
             "displayName": "Frapped Bitcoin",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "feth": {
             "currencyCode": "FETH",
             "displayName": "Frapped Ether",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "fusdt": {
             "currencyCode": "FUSDT",
             "displayName": "Frapped Tether",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "mai": {
             "currencyCode": "MAI",
             "displayName": "miMATIC",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "tbond": {
             "currencyCode": "TBOND",
             "displayName": "Tomb Bonds",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "tomb": {
             "currencyCode": "TOMB",
             "displayName": "Tomb",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "tshare": {
             "currencyCode": "TSHARE",
             "displayName": "Tomb Shares",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "usdc": {
             "currencyCode": "USDC",
             "displayName": "USD Coin",
             "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "swapSupport": false,
+            "status": "on"
           },
           "wftm": {
             "currencyCode": "WFTM",
             "displayName": "Wrapped FTM",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "xboo": {
             "currencyCode": "xBoo",
             "displayName": "Boo MirrorWorld",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
         }
       },
       "hbar": {
         "currencyCode": "HBAR",
         "displayName": "Hedera",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "matic": {
         "currencyCode": "MATIC",
         "displayName": "Polygon",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial",
+        "status": "on",
         "tokens": {
           "aave": {
             "currencyCode": "AAVE",
             "displayName": "Aave",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "bnb": {
             "currencyCode": "BNB",
             "displayName": "Binance",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "busd": {
             "currencyCode": "BUSD",
             "displayName": "Binance USD",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
-            "status": "partial"
+            "status": "on"
           },
           "dai": {
             "currencyCode": "DAI",
             "displayName": "Dai Stablecoin",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "ftm": {
             "currencyCode": "FTM",
             "displayName": "Fantom",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "link": {
             "currencyCode": "LINK",
             "displayName": "Chainlink",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "mana": {
             "currencyCode": "MANA",
             "displayName": "Decentraland",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "mkr": {
             "currencyCode": "MKR",
             "displayName": "Maker",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "tusd": {
             "currencyCode": "TUSD",
             "displayName": "TrueUSD",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
-            "status": "partial"
+            "status": "on"
           },
           "uni": {
             "currencyCode": "UNI",
             "displayName": "Uniswap",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "usdc": {
             "currencyCode": "USDC",
             "displayName": "USD Coin",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
-            "status": "partial"
+            "status": "on"
           },
           "usdt": {
             "currencyCode": "USDT",
             "displayName": "Tether",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "wbtc": {
             "currencyCode": "WBTC",
             "displayName": "Wrapped BTC",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "weth": {
             "currencyCode": "WETH",
             "displayName": "Wrapped ETH",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "yfi": {
             "currencyCode": "YFI",
             "displayName": "Yearn Finance",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
         }
       },
       "avax": {
         "currencyCode": "AVAX",
         "displayName": "Avalanche",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial",
+        "status": "on",
         "tokens": {
           "bifi": {
             "currencyCode": "BIFI",
             "displayName": "Beefy Finance",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
-            "status": "partial"
+            "status": "on"
           },
           "bnb": {
             "currencyCode": "BNB",
             "displayName": "Binance",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "busd": {
             "currencyCode": "BUSD.e",
             "displayName": "Binance USD",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "dai": {
             "currencyCode": "DAI.e",
             "displayName": "Dai Stablecoin",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "fxs": {
             "currencyCode": "FXS",
             "displayName": "Frax Share",
-            "buySellSupport": true,
+            "buySellSupport": false,
             "swapSupport": true,
-            "status": "partial"
+            "status": "on"
           },
           "joe": {
             "currencyCode": "JOE",
             "displayName": "Joe Token",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "link": {
             "currencyCode": "LINK.e",
             "displayName": "Chainlink Token",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "pefi": {
             "currencyCode": "PEFI",
             "displayName": "Penguin Finance",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "png": {
             "currencyCode": "PNG",
             "displayName": "Pangolin",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "bifi": {
             "currencyCode": "BIFI",
             "displayName": "Beefy Finance",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "unie": {
             "currencyCode": "UNI.e",
             "displayName": "Uniswap",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "usdc": {
             "currencyCode": "USDC.e",
             "displayName": "Uniswap",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "usdt": {
             "currencyCode": "USDT.e",
             "displayName": "Tether",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "wbtc": {
             "currencyCode": "WBTC.e",
             "displayName": "Wrapped BTC",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "xava": {
             "currencyCode": "XAVA",
             "displayName": "Avalaunch",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
           "yak": {
             "currencyCode": "YAK",
             "displayName": "Yield Yak",
-            "buySellSupport": true,
-            "swapSupport": true,
-            "status": "partial"
+            "buySellSupport": false,
+            "swapSupport": false,
+            "status": "on"
           },
         }
       },
       "bnb_smart_chain": {
         "currencyCode": "BNB",
         "displayName": "BNB Smart Chain",
-        "buySellSupport": true,
-        "swapSupport": true,
-        "status": "partial",
+        "buySellSupport": false,
+        "swapSupport": false,
+        "status": "on",
         "tokens": {},
       },
       "celo": {
         "currencyCode": "CELO",
         "displayName": "Celo",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "doge": {
         "currencyCode": "DOGE",
         "displayName": "Doge",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       },
       "ebst": {
         "currencyCode": "EBST",
         "displayName": "eBoost",
-        "buySellSupport": true,
-        "swapSupport": true,
-        "status": "partial"
+        "buySellSupport": false,
+        "swapSupport": false,
+        "status": "on"
       },
       "fio": {
         "currencyCode": "FIO",
         "displayName": "FIO",
-        "buySellSupport": true,
+        "buySellSupport": false,
         "swapSupport": true,
-        "status": "partial"
+        "status": "on"
       }
     }
   }
-]
