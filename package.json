@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Yintii/json-work#readme",
   "dependencies": {
+    "cleaners": "^0.3.12",
     "node-fetch": "^3.2.4"
   }
 }
