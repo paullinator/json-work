@@ -813,7 +813,7 @@ export const CURRENCY_DATA = {
       "digibyte": {
         "currencyCode": "DGB",
         "displayName": "Digibyte",
-        "buySellSupport": false,
+        "buySellSupport": true,
         "swapSupport": false,
         "status": "up"
       },
@@ -827,14 +827,14 @@ export const CURRENCY_DATA = {
       "rvn": {
         "currencyCode": "RVN",
         "displayName": "Ravencoin",
-        "buySellSupport": false,
+        "buySellSupport": true,
         "swapSupport": true,
         "status": "up"
       },
       "qtum": {
         "currencyCode": "QTUM",
         "displayName": "Qtum",
-        "buySellSupport": false,
+        "buySellSupport": true,
         "swapSupport": true,
         "status": "up"
       },
