@@ -10,16 +10,23 @@ const asCurrency = asObject({
 })
 
 
-let problems = Object.values(CURRENCY_DATA.assets).filter(each => !asCurrency(each))
-
-
-if(problems.length === 0){
-    console.log("No issues, JSON is good")
+function checkCleanliness(token){
+    try{
+        if(asCurrency(token)){
+            console.log(`${token.currencyCode} is clean`)
+        }
+    }catch(error){
+        console.log(`There is an issue with ${token.displayName}`)
+    }
 }
-// console.log(asCurrency({
-//     currencyCode: "BTC",
-//     displayName: 'Bitcoin',
-//     buySellSupport: true,
-//     swapSupport: true,
-//     status: "up"
-// }))
+
+let data = Object.values(CURRENCY_DATA.assets).map(each => each)
+
+let tokenChains = data.filter(each => each.tokens)
+
+data.forEach(token => checkCleanliness(token))
+
+
+let chainTokens = tokenChains.map(chain => Object.values(chain.tokens))
+
+chainTokens.forEach(each => each.forEach(eeach => checkCleanliness(eeach)))
